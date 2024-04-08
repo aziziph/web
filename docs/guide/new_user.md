@@ -24,7 +24,8 @@ If you have never used another electronic structure code or a Quantum
 Chemistry package, you should complete such reading by going (at your own
 pace) through the Chaps. 1 to 13 , and appendices L and M of R.M. Martin's book [[cite:Martin2004]].
 
-After having gone through the present New User's Guide, you should follow the [ABINIT tutorial](/tutorial/).
+After having gone through the present New User's Guide, you should follow the
+[[tutorial:index|ABINIT tutorial]].
 
 ## Introduction
   
@@ -49,7 +50,7 @@ We suppose that you have downloaded the ABINIT package from the Web site,
 unpacked it and installed it. If not, you might nevertheless continue reading
 the present Web page, just to get an overview, but it might prove more
 fruitful to have first downloaded the ABINIT package and at least unpacked it,
-see the [installation notes](../installation).
+see the [installation notes](/installation).
 
 !!! note
 
@@ -120,12 +121,6 @@ mrgddb and anaddb
     thermodynamical functions, piezoelectric properties, superconducting
     properties, to name a few. `mrgddb` is for "Merge of Derivative DataBases",
     while `anaddb` is for "Analysis of Derivative DataBases".
-
-abitk
-:   This simple tool is used to parse and supply descriptive output concerning a
-    completed run, and is designed primarily to examine output files in `netcdf`
-    format. The name stands for "Abinit Tool Kit". Running `abitk -h` gives
-    the various options.
 
 cut3d 
 :   It can be used to post-process the three-dimensional density (or
@@ -330,7 +325,7 @@ structure can be constructed.
   
 We finish this "help for new user" with a brief explanation of the logic of ABINIT version releases.
 
-The full name of a version has three digits (for example, 8.8.3). The first
+The full name of a version has three digits (for example, 9.10.5). The first
 digit is the slowly varying one (in average, it is changed after two or three
 years). It indicates the major efforts and trends in that version. At the
 level of 1.x.y ABINIT (before 2000 !), the major effort was placed on the
@@ -345,13 +340,13 @@ the speed of ABINIT (e.g. PAW), and its parallelisation. These historical
 developments explain why the tests are gathered in directories "v1", "v2",
 "v3", etc. Every 4 to 8 months, we release a "production version" of ABINIT in
 which the second digit, an even number, is incremented, which usually goes
-with additional features. A [release notes document](about/release-notes) is issued, with the list of
+with additional features. A [release notes document](/about/release-notes) is issued, with the list of
 additional capabilities, and other information with respect to modifications
 with the previous release. The odd second digits are used for internal
 management only, so-called "development versions" of ABINIT (for example
-8.9.0). Two versions differing by the last (third) digit have the same
+9.11.4). Two versions differing by the last (third) digit have the same
 capabilities, but the one with the largest last digit is more debugged than
-the other: version 8.8.3 is more debugged than 8.8.2, but no new features has
+the other: version 9.10.5 is more debugged than 9.10.3, but no new features has
 been added (so likely, no additional bug!).
 
 In order to start using ABINIT, please follow [[tutorial:index|this tutorial.]]
