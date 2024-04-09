@@ -16,7 +16,7 @@ Currently, our library supports the following electronic structure methods:
 - Laplace-transformed direct MP2
 
 # Components
-- [ABINIT](README.md)
+- [ABINIT](https://www.abinit.org/)
 - [Pseudopotentials and PAW datasets for ABINIT](https://www.abinit.org/psp-tables)
 - [Input variables](https://docs.abinit.org/variables/#A)
 - [Tutorials](https://docs.abinit.org/tutorial/)
