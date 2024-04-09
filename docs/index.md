@@ -17,6 +17,13 @@ Currently, our library supports the following electronic structure methods:
 
 # Components
 - [ABINIT](README.md)
+- [Pseudopotentials and PAW datasets for ABINIT](https://www.abinit.org/psp-tables)
+- [Input variables](https://docs.abinit.org/variables/#A)
+- [Tutorials](https://docs.abinit.org/tutorial/)
+- [Forum](https://discourse.abinit.org/top?period=yearly)
+- [Wiki](https://wiki.abinit.org/doku.php?id=start)
+- [Download](https://www.abinit.org/packages)
+- [Compile ABINIT](https://docs.abinit.org/installation/)
 
 # Technical Details
  GreenX is written in Fortran 2008. Functionality needed for testing and error handling is written in C and Python. In the following we provide a few more details for current and future developers of GreenX. 
