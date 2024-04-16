@@ -7,13 +7,13 @@ description: DFT code
 
 # Overview
 
-A new open-source library that supports exascale implementations of Green's-function-based methodologies. Its layered design will separate higher-level functionalities (distinguishing between code-independent and code-family-specific parts) from architecture-dependent numerical routines, common to all code families.
-
-Currently, our library supports the following electronic structure methods:
-
-- conventional and low-scaling RPA
-- low-scaling \\(GW\\)
-- Laplace-transformed direct MP2
+ABINIT is probably the first electronic-structure package to have been released under an open-source license, 
+more than twenty years ago. It implements density functional theory (DFT), density-functional perturbation theory (DFPT),
+many-body perturbation theory (GW approximation and Bethe-Salpether equation), and more specific or advanced
+formalisms, like dynamical mean-field theory (DMFT) and the "temperature-dependent effective potential" (TDEP)
+approach for anharmonic effects. Relying on planewaves for the representation of wavefunctions, density and other
+space-dependent quantities, with pseudopotentials or projector-augmented waves (PAW), it is well suited for the study
+of periodic materials, although nanostructures and molecules can be treated with the supercell technique.
 
 # Components
 - [ABINIT](https://www.abinit.org/)
