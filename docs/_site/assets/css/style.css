@@ -40,7 +40,7 @@ dfn { font-style: italic; }
 h1 { font-size: 2em; margin: 0.67em 0; }
 
 /** Address styling not present in IE 8/9. */
-mark { background: #ff0; color: #000; }
+mark { background: #ff0; color: #e0680b; }
 
 /** Address inconsistent and variable font size in all browsers. */
 small { font-size: 80%; }
@@ -139,9 +139,9 @@ td, th { padding: 0; }
 
 .highlight .c, .highlight .cd { color: #999988; font-style: italic; }
 
-.highlight .err { color: #a61717; background-color: #e3d2d2; }
+.highlight .err { color: #a61717; background-color: #e0680b; }
 
-.highlight .gd { color: #000000; background-color: #ffdddd; }
+.highlight .gd { color: #000000; background-color: #e0680b; }
 
 .highlight .ge { color: #000000; font-style: italic; }
 
@@ -149,7 +149,7 @@ td, th { padding: 0; }
 
 .highlight .gh { color: #999999; }
 
-.highlight .gi { color: #000000; background-color: #ddffdd; }
+.highlight .gi { color: #000000; background-color: #e0680b; }
 
 .highlight .go { color: #888888; }
 
@@ -249,7 +249,7 @@ td, th { padding: 0; }
 
 .highlight .w { color: #bbbbbb; }
 
-.highlight { background-color: #f8f8f8; }
+.highlight { background-color: #e0680b; }
 
 * { box-sizing: border-box; }
 
@@ -269,7 +269,7 @@ a:hover { text-decoration: underline; }
 @media screen and (max-width: 42em) { .btn { display: block; width: 100%; padding: 0.75rem; font-size: 0.9rem; }
   .btn + .btn { margin-top: 1rem; margin-left: 0; } }
 
-.page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #155799, #159957); }
+.page-header { color: #fff; text-align: center; background-color: #e0680b; background-image: linear-gradient(120deg, #155799, #159957); }
 @media screen and (min-width: 64em) { .page-header { padding: 5rem 6rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 3rem 4rem; } }
 @media screen and (max-width: 42em) { .page-header { padding: 2rem 1rem; } }
@@ -289,7 +289,7 @@ a:hover { text-decoration: underline; }
 @media screen and (min-width: 64em) { .main-content { max-width: 64rem; padding: 2rem 6rem; margin: 0 auto; font-size: 1.1rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .main-content { padding: 2rem 4rem; font-size: 1.1rem; } }
 @media screen and (max-width: 42em) { .main-content { padding: 2rem 1rem; font-size: 1rem; } }
-.main-content kbd { background-color: #fafbfc; border: 1px solid #c6cbd1; border-bottom-color: #959da5; border-radius: 3px; box-shadow: inset 0 -1px 0 #959da5; color: #444d56; display: inline-block; font-size: 11px; line-height: 10px; padding: 3px 5px; vertical-align: middle; }
+.main-content kbd { background-color: #e0680b; border: 1px solid #c6cbd1; border-bottom-color: #959da5; border-radius: 3px; box-shadow: inset 0 -1px 0 #959da5; color: #444d56; display: inline-block; font-size: 11px; line-height: 10px; padding: 3px 5px; vertical-align: middle; }
 .main-content img { max-width: 100%; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #159957; }
 .main-content p { margin-bottom: 1em; }
