@@ -26,5 +26,4 @@ of periodic materials, although nanostructures and molecules can be treated with
 - [Compile ABINIT](https://docs.abinit.org/installation/)
 
 # Technical Details
- GreenX is written in Fortran 2008. Functionality needed for testing and error handling is written in C and Python. In the following we provide a few more details for current and future developers of GreenX. 
-- [Coding conventions and regression testing](tests.md)
+ 
