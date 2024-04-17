@@ -1,1 +1,0 @@
-###Tutorials harmonic part
