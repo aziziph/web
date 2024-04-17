@@ -1,10 +1,8 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px; /* Add padding as needed */
-}
+---
+---
 
-.shortcut {
-    margin-right: 10px; /* Adjust margin between icons as needed */
+@import "{{ site.theme }}";
+
+.page-header {
+    padding: 15px 0; /* Adjust the padding as you like, this determines the height of the header */
 }
